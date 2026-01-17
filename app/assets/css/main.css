@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @import "@nuxt/ui-pro";
+
+@layer base {
+  body {
+    @apply bg-white text-neutral-900 antialiased;
+  }
+
+  a {
+    @apply text-primary hover:underline;
+  }
+}

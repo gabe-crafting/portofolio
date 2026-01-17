@@ -1,28 +1,16 @@
 ---
-title: Welcome to Nuxt Content Starter
-description: This is the main page displaying Markdown located at content/index.md.
+title: Gabriel - Senior Web Developer
+description: Portfolio intro, skills, projects, and CV.
 ---
 
-# Welcome to Nuxt Content Starter
+# Senior Web Developer
 
-This is the main page displaying Markdown located at [content/index.md](https://github.com/nuxt/starter/blob/content/content/index.md).
+I build fast, accessible web apps with clean architecture and thoughtful UX.
 
-Move to [about](/about) page.
+- View my [CV](/cv)
+- Explore [Skills](/skills)
+- See [Projects](/projects)
 
-## Manage your Contents
+## What I do
 
-Create new pages or modify the existing ones in `content/` directory.
-
-## Query & Render Pages
-
-You can find an example of querying contents and rendering them in a [catch-all page](https://github.com/nuxt/starter/blob/content/app/pages/%5B...slug%5D.vue)
-
-## Integrate Vue Component
-
-::alert{color="green"}
-The current [alert](https://github.com/nuxt/starter/blob/content/app/components/Alert.vue) and the [counter](https://github.com/nuxt/starter/blob/content/app/components/Counter.vue) below are `Vue` components integrated into the Markdown.
-::
-
-:counter
-
-Checkout out the [documentation](https://content.nuxt.com/docs/getting-started) to learn more.
+Product-focused engineering, from discovery to delivery, with an emphasis on performance and maintainability.

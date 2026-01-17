@@ -11,8 +11,13 @@ if (!page.value) {
 </script>
 
 <template>
-  <ContentRenderer
-    v-if="page"
-    :value="page"
-  />
+  <UPage>
+    <div class="mx-auto w-full max-w-3xl px-4 py-10 sm:py-14 lg:py-16">
+      <ContentRenderer
+        v-if="page"
+        :value="page"
+        class="prose prose-neutral dark:prose-invert prose-headings:tracking-tight prose-a:no-underline hover:prose-a:underline"
+      />
+    </div>
+  </UPage>
 </template>

@@ -7,13 +7,15 @@ advancedSkills:
   - title: NODEJS
     icon: i-logos-nodejs-icon
   - title: Pinia
-  - title: Tailwind
-    icon: i-logos-tailwindcss-icon
-  - title: Bootstrap
-    icon: i-logos-bootstrap
+    icon: i-logos-pinia
+  - title: NuxtUI
+    icon: i-devicon-nuxtjs
   - title: Ruby on Rails
+    icon: i-mdi-language-ruby-on-rails
   - title: Mongodb
+    icon: i-lineicons-mongodb
   - title: GraphQL
+    icon: i-mdi-graphql
   - title: Gatsby
   - title: Jira
   - title: Unit testing
@@ -23,10 +25,19 @@ advancedSkills:
   - title: MVC
   - title: REST
   - title: OOP
-  - title: AJAX
+  - title: Nest
+    icon: i-catppuccin-nest
   - title: JQuery
   - title: Ojet
   - title: Azure
+  - title: Vitest
+    icon: i-devicon-vitest
+  - title: StoryBook
+    icon: i-devicon-storybook
+  - title: PixiJs
+    icon: i-devicon-pixijs
+  - title: Golang
+    icon: i-devicon-go
 contact:
   phone: "0761030884"
   email: apostol.gabriel90@gmail.com
@@ -54,9 +65,13 @@ experience:
         - title: Redux Toolkit
           icon: i-logos-redux
         - title: Agile
-          icon: ""
+          icon: i-iconoir-agile
         - title: Vite
           icon: i-logos-vitejs
+        - title: Storybook
+          icon: i-devicon-storybook
+        - title: Vitest
+          icon: i-devicon-vitest
     - position: " Senior Front-End Software Engineer"
       date: 2022 - 2023
       company:
@@ -68,10 +83,10 @@ experience:
       startDate: 2023/03
       endDate: 2024/03
       skills:
-        - title: Javascript
-          icon: i-logos-javascript
         - title: React
           icon: i-logos-react
+        - title: Next
+          icon: i-ri-nextjs-fill
         - title: Redux
           icon: i-logos-redux
         - title: Webpack
@@ -84,6 +99,7 @@ experience:
         - title: REST
         - title: Task administration
         - title: Agile
+          icon: i-iconoir-agile
     - position: Front-End Software Engineer
       date: 2020 - 2021
       company:
@@ -97,13 +113,18 @@ experience:
       skills:
         - title: Vue
           icon: i-logos-vue
-        - title: Azure
-          icon: i-logos-microsoft-azure
+        - title: Nuxt
+          icon: i-mdi-nuxt
         - title: Pinia
           icon: i-logos-pinia
+        - title: Nest
+          icon: i-catppuccin-nest
+        - title: PixiJS
+          icon: i-devicon-pixijs
         - title: Agile
-          icon: ""
-        - title: Canvas
+          icon: i-iconoir-agile
+        - title: Azure
+          icon: i-devicon-azure
     - startDate: 2019/06
       endDate: 2021/04
       position: Javascript Software Engineer
@@ -121,6 +142,8 @@ experience:
         - title: React Native
         - title: NodeJS
           icon: i-logos-nodejs-icon
+        - title: ExpressJs
+          icon: i-lineicons-expressjs
     - startDate: 2018/11
       endDate: 01/2019
       position: Java Developer - Internship
@@ -152,7 +175,7 @@ projects:
   - title: Meme Folder
     description: A computer application that scans a specified folder, allowing users to tag photos and search them by tags. Designed to streamline image organization and eliminate the need for multiple folders, it is built using Wails, JavaScript, and Go.
   - title: News Junkie
-    description: A tweeter like platform where you can comment on news, tag and map them so you can find them easily by tag. It supports archive capability. Made in React, Next, Go, Supabase and other technologies I'm interested in. This project it's my way to be kept up to date with the industry.
+    description: A tweeter like platform where you can comment on news, tag and map them so you can find them easily by tag. It supports archive capability. Made in React, Next, Go, Supabase and other technologies I'm interested in. This project is a fun way for me to keep up to date with the industry
 seo:
   title: Apostol Gabriel - Senior Front-End Software Engineer
   description: "Passionate software engineer with a focus on frontend. Favorite libraries are react, vue. Framework of choice: nuxt"
@@ -163,6 +186,14 @@ skills:
     icon: i-logos-vue
   - title: Javascript
     icon: i-logos-javascript
+  - title: Tailwind
+    icon: i-logos-tailwindcss-icon
   - title: Less
     icon: i-logos-less
   - title: CSSInJS (JSS)
+  - title: Next
+    icon: i-ri-nextjs-fill
+  - title: Nuxt
+    icon: i-mdi-nuxt
+  - title: Nuxt Content
+    icon: i-devicon-nuxtjs
