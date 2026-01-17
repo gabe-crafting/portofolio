@@ -18,4 +18,16 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
+  studio: {
+    // Studio admin route (default: '/_studio')
+    route: '/_studio',
+    
+    // Git repository configuration (owner and repo are required)
+    repository: {
+      provider: 'github', // 'github' or 'gitlab'
+      owner: 'gabe-crafting', // your GitHub/GitLab username or organization
+      repo: 'https://github.com/gabe-crafting/portofolio', // your repository name
+      branch: 'master', // the branch to commit to (default: main)
+    }
+  }
 })
