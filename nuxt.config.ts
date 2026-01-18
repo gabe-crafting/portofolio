@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     'nuxt-studio',
   ],
   css: ['@/assets/css/main.css'],
-  ssr: false,
+  ssr: true,
   nitro: {
     preset: 'vercel',
     prerender: {
