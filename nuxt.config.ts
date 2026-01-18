@@ -9,6 +9,16 @@ export default defineNuxtConfig({
     'nuxt-studio',
   ],
   css: ['@/assets/css/main.css'],
+  ssr: false,
+  nitro: {
+    preset: 'vercel',
+    prerender: {
+      ignore: ['/__nuxt_content/**'],
+    },
+  },
+  app: {
+    baseURL: import.meta.env.NUXT_APP_BASE_URL || '/',
+  },
   appConfig: {
     ui: {
       colors: {
