@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       failOnError: false,
+      routes: ['/', '/about', '/projects', '/skills', '/cv'],
       ignore: ['/__nuxt_content/**'],
     },
   },
