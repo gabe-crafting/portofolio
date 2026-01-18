@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: import.meta.env.NUXT_APP_BASE_URL || '/',
+    baseURL: '/',
   },
   appConfig: {
     ui: {
