@@ -13,6 +13,8 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'vercel',
     prerender: {
+      crawlLinks: false,
+      failOnError: false,
       ignore: ['/__nuxt_content/**'],
     },
   },
